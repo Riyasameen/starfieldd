@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gaming Console Remote Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- -------------------------------------------- Font Awesome CDN-------------------------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            LICENSED CLUB
+        </div>
+        <div class="bars" id="bars"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <section class="wrapper">
+        <div class="shadow"></div>
+        <div class="home-body">
+            <div class="info">
+                <h1>KCK UNITED</h1>
+
+                <p>FOOTBALL SECTION TRIALS FOR 2004-2007 Batch</p>
+                <p>DATE: 16 JUNE 2024
+                    VENUE: POOVAR GROUND
+                    TIME: 7:30 AM</p>
+                <p>KERALA YOUTH WOMENS LEAGUE CHMAPIONS, WE ARE INVITE ASPIRING FOOTBALL TALENTS SELECTION CANDIAITES RECEIVE FREE TRAINING, FOOD AND ACCOMODATION</p>
+            </div>
+            <div class="home_img">
+                <img src="bq.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <script>
+        let menu = document.querySelector("#menu"),
+        bars = document.querySelector("#bars");
+
+        bars.addEventListener("click",function(){
+            menu.classList.toggle("mobilemenu")
+        })
+    </script>
+</body>
+</html>
